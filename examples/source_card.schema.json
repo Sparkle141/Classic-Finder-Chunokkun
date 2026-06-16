@@ -1,0 +1,21 @@
+{
+  "type": "object",
+  "required": ["source_id", "title", "url", "rights_status"],
+  "properties": {
+    "source_id": {"type": "string"},
+    "title": {"type": "string"},
+    "author": {"type": "string"},
+    "date": {"type": "string"},
+    "edition": {"type": "string"},
+    "section": {"type": "string"},
+    "url": {"type": "string"},
+    "stable_url": {"type": "string"},
+    "identifier": {"type": "string"},
+    "rights_status": {"type": "string"},
+    "license_url": {"type": "string"},
+    "source_layer": {"type": "string"},
+    "source_layer_label": {"type": "string"},
+    "accessed": {"type": "string"},
+    "notes": {"type": "string"}
+  }
+}

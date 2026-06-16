@@ -1,0 +1,166 @@
+{
+  "sources": [
+    {
+      "id": "wikisource_en",
+      "name": "English Wikisource",
+      "role": "primary_text",
+      "base_url": "https://en.wikisource.org",
+      "api_url": "https://en.wikisource.org/w/api.php",
+      "rights_default": "cc_by_sa_or_public_domain",
+      "notes": "Use MediaWiki API. Record oldid for stable citation."
+    },
+    {
+      "id": "wikisource_zh",
+      "name": "Chinese Wikisource",
+      "role": "primary_text",
+      "base_url": "https://zh.wikisource.org",
+      "api_url": "https://zh.wikisource.org/w/api.php",
+      "rights_default": "cc_by_sa_or_public_domain",
+      "notes": "Use for Chinese classics when pages are complete and sourced."
+    },
+    {
+      "id": "wikisource_fr",
+      "name": "French Wikisource",
+      "role": "primary_text",
+      "base_url": "https://fr.wikisource.org",
+      "api_url": "https://fr.wikisource.org/w/api.php",
+      "rights_default": "cc_by_sa_or_public_domain",
+      "notes": "Use for French originals and French public-domain translations."
+    },
+    {
+      "id": "wikisource_de",
+      "name": "German Wikisource",
+      "role": "primary_text",
+      "base_url": "https://de.wikisource.org",
+      "api_url": "https://de.wikisource.org/w/api.php",
+      "rights_default": "cc_by_sa_or_public_domain",
+      "notes": "Use for German originals and older German editions."
+    },
+    {
+      "id": "wikisource_la",
+      "name": "Latin Wikisource",
+      "role": "primary_text",
+      "base_url": "https://la.wikisource.org",
+      "api_url": "https://la.wikisource.org/w/api.php",
+      "rights_default": "cc_by_sa_or_public_domain",
+      "notes": "Use for Latin originals and early modern Latin texts."
+    },
+    {
+      "id": "wikisource_el",
+      "name": "Greek Wikisource",
+      "role": "primary_text",
+      "base_url": "https://el.wikisource.org",
+      "api_url": "https://el.wikisource.org/w/api.php",
+      "rights_default": "cc_by_sa_or_public_domain",
+      "notes": "Use as a secondary Greek source; prefer Perseus/Scaife for classical citation schemes when possible."
+    },
+    {
+      "id": "gutenberg",
+      "name": "Project Gutenberg",
+      "role": "primary_text",
+      "base_url": "https://www.gutenberg.org",
+      "api_url": "https://gutendex.com/books/",
+      "rights_default": "public_domain_or_permission_cleared_us",
+      "notes": "Gutendex is used as a lightweight Project Gutenberg discovery API. Verify item license text."
+    },
+    {
+      "id": "internet_archive",
+      "name": "Internet Archive",
+      "role": "primary_text",
+      "base_url": "https://archive.org",
+      "api_url": "https://archive.org/advancedsearch.php",
+      "rights_default": "item_specific",
+      "notes": "Check licenseurl and rights fields. Some items are borrow-only or restricted."
+    },
+    {
+      "id": "openlibrary",
+      "name": "Open Library",
+      "role": "metadata",
+      "base_url": "https://openlibrary.org",
+      "api_url": "https://openlibrary.org/search.json",
+      "rights_default": "metadata_only",
+      "notes": "Use for work/edition metadata and Internet Archive links."
+    },
+    {
+      "id": "hathitrust",
+      "name": "HathiTrust",
+      "role": "metadata",
+      "base_url": "https://catalog.hathitrust.org",
+      "api_url": "",
+      "rights_default": "item_specific",
+      "notes": "Use for edition discovery and Full View checks. Manual verification is required in this starter kit."
+    },
+    {
+      "id": "perseus_scaife",
+      "name": "Perseus / Scaife Viewer",
+      "role": "primary_text",
+      "base_url": "https://scaife.perseus.org",
+      "api_url": "",
+      "rights_default": "item_specific",
+      "notes": "Use for Greek and Latin originals with CTS URN citation. Manual lookup is included in this starter kit."
+    },
+    {
+      "id": "doaj",
+      "name": "Directory of Open Access Journals",
+      "role": "metadata",
+      "base_url": "https://doaj.org",
+      "api_url": "https://doaj.org/api/search/articles/",
+      "rights_default": "article_specific",
+      "notes": "Use for open-access scholarly articles."
+    },
+    {
+      "id": "doab",
+      "name": "Directory of Open Access Books",
+      "role": "metadata",
+      "base_url": "https://www.doabooks.org",
+      "api_url": "",
+      "rights_default": "book_specific",
+      "notes": "Use for peer-reviewed open-access books. Verify book-level license."
+    },
+    {
+      "id": "oapen",
+      "name": "OAPEN Library",
+      "role": "primary_text",
+      "base_url": "https://www.oapen.org",
+      "api_url": "",
+      "rights_default": "book_specific",
+      "notes": "Use for open-access monographs and chapters. Verify item license."
+    },
+    {
+      "id": "kanripo",
+      "name": "Kanseki Repository",
+      "role": "primary_text",
+      "base_url": "https://www.kanripo.org",
+      "api_url": "",
+      "rights_default": "cc_by_sa",
+      "notes": "GitHub-backed Chinese text repository. Prefer raw files and record commit when possible."
+    },
+    {
+      "id": "cbeta",
+      "name": "CBETA",
+      "role": "primary_text_noncommercial",
+      "base_url": "https://cbeta.org",
+      "api_url": "",
+      "rights_default": "cc_by_nc_sa_3_0_tw_with_exclusions",
+      "notes": "Check explicit exclusions before reuse."
+    },
+    {
+      "id": "ctext",
+      "name": "Chinese Text Project",
+      "role": "search_only",
+      "base_url": "https://ctext.org",
+      "api_url": "",
+      "rights_default": "site_specific",
+      "notes": "Use as search and comparison aid. Avoid automated bulk extraction."
+    },
+    {
+      "id": "scribd",
+      "name": "Scribd",
+      "role": "discovery_only",
+      "base_url": "https://www.scribd.com",
+      "api_url": "",
+      "rights_default": "unknown",
+      "notes": "Do not extract or translate as final source without independent verification."
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "description": "Seed concept map for reverse tracing Korean translations of classical texts. Extend locally for project needs.",
+  "concepts": [
+    {
+      "ko": ["자유", "자유롭게"],
+      "en": ["liberty", "freedom", "free"],
+      "fr": ["liberte", "libre"],
+      "de": ["freiheit", "frei"],
+      "la": ["libertas", "liber"],
+      "grc": ["eleutheria", "eleutheros", "ἐλευθερία", "ἐλεύθερος"],
+      "notes": "Freedom/liberty vocabulary differs sharply by author and period."
+    },
+    {
+      "ko": ["사슬", "쇠사슬", "속박", "묶여"],
+      "en": ["chains", "bondage", "fettered"],
+      "fr": ["fers", "chaines"],
+      "de": ["ketten", "gefesselt"],
+      "la": ["catenae", "vincula"],
+      "grc": ["desmos", "δεσμός"],
+      "notes": "Useful for Rousseau-like passages and political slavery metaphors."
+    },
+    {
+      "ko": ["국가", "공화국", "공동체", "코먼웰스"],
+      "en": ["state", "commonwealth", "body politic"],
+      "fr": ["etat", "republique", "corps politique"],
+      "de": ["staat", "gemeinwesen"],
+      "la": ["civitas", "res publica", "respublica"],
+      "grc": ["polis", "πολις", "πόλις"],
+      "notes": "Do not flatten commonwealth, state, civitas, polis, and res publica."
+    },
+    {
+      "ko": ["이성", "오성", "지성"],
+      "en": ["reason", "understanding", "intellect"],
+      "fr": ["raison", "entendement"],
+      "de": ["vernunft", "verstand"],
+      "la": ["ratio", "intellectus"],
+      "grc": ["logos", "nous", "λόγος", "νοῦς"],
+      "notes": "For German philosophy, distinguish Vernunft from Verstand."
+    },
+    {
+      "ko": ["덕", "탁월성", "훌륭함"],
+      "en": ["virtue", "excellence"],
+      "fr": ["vertu"],
+      "de": ["tugend"],
+      "la": ["virtus"],
+      "grc": ["arete", "ἀρετή"],
+      "notes": "Greek arete may mean excellence more broadly than moral virtue."
+    },
+    {
+      "ko": ["행복", "번영", "좋은 삶"],
+      "en": ["happiness", "flourishing", "well-being"],
+      "fr": ["bonheur"],
+      "de": ["glueck", "glück", "wohl"],
+      "la": ["felicitas", "beatitudo"],
+      "grc": ["eudaimonia", "εὐδαιμονία"],
+      "notes": "Eudaimonia should not be treated as simple emotion happiness."
+    },
+    {
+      "ko": ["자연법", "자연권", "자연 상태"],
+      "en": ["natural law", "natural right", "state of nature"],
+      "fr": ["droit naturel", "loi naturelle", "etat de nature"],
+      "de": ["naturrecht", "naturzustand"],
+      "la": ["lex naturalis", "ius naturale", "status naturalis"],
+      "grc": ["physis", "νόμος", "φύσις"],
+      "notes": "Separate law, right, nature, and state-of-nature traditions."
+    },
+    {
+      "ko": ["계약", "언약", "사회계약"],
+      "en": ["covenant", "contract", "social contract"],
+      "fr": ["contrat social", "pacte"],
+      "de": ["vertrag", "gesellschaftsvertrag"],
+      "la": ["foedus", "pactum", "contractus"],
+      "grc": ["syntheke", "συνθήκη"],
+      "notes": "Hobbes covenant and Rousseau contrat social are not interchangeable."
+    },
+    {
+      "ko": ["자연상태", "자연 상태", "전쟁상태", "전쟁 상태", "만인에 대한 만인의 투쟁", "만인의 만인에 대한 투쟁", "만인", "투쟁"],
+      "en": ["state of nature", "war of every man against every man", "warre of every man against every man", "war of all against all", "condition of war"],
+      "fr": ["etat de nature", "guerre de tous contre tous"],
+      "de": ["naturzustand", "krieg aller gegen alle"],
+      "la": ["bellum omnium contra omnes", "status naturalis"],
+      "grc": [],
+      "notes": "Hobbesian state of nature vocabulary; exact Leviathan wording may use early modern spelling."
+    },
+    {
+      "ko": ["고독하고", "가난하고", "추악하고", "야만적이고", "짧다", "비참하고", "잔인하고"],
+      "en": ["solitary poor nasty brutish and short", "solitary", "poor", "nasty", "brutish", "short"],
+      "fr": ["solitaire pauvre mechante brutale et courte"],
+      "de": ["einsam arm ekelhaft tierisch und kurz"],
+      "la": [],
+      "grc": [],
+      "notes": "Famous Hobbes passage from Leviathan Chapter 13; translations vary widely."
+    },
+    {
+      "ko": ["칼이 없는 계약", "검이 없는 계약", "강제력 없는 계약", "말뿐이다", "말에 불과하다"],
+      "en": ["covenants without the sword are but words", "covenants without the sword", "but words"],
+      "fr": [],
+      "de": [],
+      "la": [],
+      "grc": [],
+      "notes": "Famous Hobbes passage from Leviathan Chapter 17."
+    },
+    {
+      "ko": ["필연", "필연성", "운명"],
+      "en": ["necessity", "fate"],
+      "fr": ["necessite", "destin"],
+      "de": ["notwendigkeit", "schicksal"],
+      "la": ["necessitas", "fatum"],
+      "grc": ["ananke", "heimarmene", "ἀνάγκη", "εἱμαρμένη"],
+      "notes": "Useful for Stoic, Spinozist, and theological contexts."
+    }
+  ],
+  "known_quote_patterns": [
+    {
+      "ko_hint": ["인간은 자유롭게 태어났지만", "사슬에 묶여"],
+      "work_hints": ["Rousseau", "Social Contract", "사회계약론"],
+      "queries": [
+        "Man is born free and everywhere he is in chains Rousseau",
+        "L'homme est ne libre et partout il est dans les fers",
+        "Du contrat social livre I chapitre I l'homme est ne libre"
+      ]
+    },
+    {
+      "ko_hint": ["나는 생각한다", "고로 존재한다"],
+      "work_hints": ["Descartes", "Discourse on Method", "방법서설"],
+      "queries": [
+        "I think therefore I am Descartes",
+        "je pense donc je suis Descartes",
+        "cogito ergo sum Descartes"
+      ]
+    },
+    {
+      "ko_hint": ["인간은 인간에게 늑대"],
+      "work_hints": ["Hobbes", "Plautus", "homo homini lupus"],
+      "queries": [
+        "homo homini lupus",
+        "man is a wolf to man Hobbes Plautus",
+        "homo homini lupus est"
+      ]
+    },
+    {
+      "ko_hint": ["자연상태", "만인", "투쟁"],
+      "work_hints": ["Hobbes", "Leviathan"],
+      "queries": [
+        "war of every man against every man Hobbes Leviathan Chapter 13",
+        "warre of every man against every man Leviathan Chapter 13",
+        "war of all against all Hobbes Leviathan",
+        "bellum omnium contra omnes Hobbes",
+        "Leviathan Chapter 13 state of nature war of every man"
+      ]
+    },
+    {
+      "ko_hint": ["만인에 대한 만인의 투쟁"],
+      "work_hints": ["Hobbes", "Leviathan"],
+      "queries": [
+        "war of every man against every man Hobbes Leviathan Chapter 13",
+        "warre of every man against every man Leviathan Chapter 13",
+        "war of all against all Hobbes Leviathan",
+        "bellum omnium contra omnes Hobbes"
+      ]
+    },
+    {
+      "ko_hint": ["고독", "가난", "짧"],
+      "work_hints": ["Hobbes", "Leviathan"],
+      "queries": [
+        "solitary poor nasty brutish and short Hobbes Leviathan Chapter 13",
+        "Leviathan Chapter 13 solitary poor nasty brutish and short",
+        "life of man solitary poor nasty brutish and short"
+      ]
+    },
+    {
+      "ko_hint": ["검", "계약", "말"],
+      "work_hints": ["Hobbes", "Leviathan"],
+      "queries": [
+        "covenants without the sword are but words Hobbes Leviathan Chapter 17",
+        "Leviathan Chapter 17 covenants without the sword are but words",
+        "covenants without the sword Hobbes"
+      ]
+    },
+    {
+      "ko_hint": ["칼", "계약", "말"],
+      "work_hints": ["Hobbes", "Leviathan"],
+      "queries": [
+        "covenants without the sword are but words Hobbes Leviathan Chapter 17",
+        "Leviathan Chapter 17 covenants without the sword are but words",
+        "covenants without the sword Hobbes"
+      ]
+    }
+  ]
+}

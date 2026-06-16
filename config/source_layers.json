@@ -1,0 +1,68 @@
+{
+  "description": "Literary and scholarly layer labels used in reverse tracing.",
+  "layers": [
+    {
+      "id": "original_language_primary",
+      "label": "원어 원전",
+      "description": "Greek, Latin, French, German, English, Italian, Classical Chinese, or other source-language primary text.",
+      "priority": 1
+    },
+    {
+      "id": "early_or_classic_translation",
+      "label": "고전적 번역본",
+      "description": "Historically influential translation, such as old English, Latin translation, Jowett Plato, or older French/German editions.",
+      "priority": 2
+    },
+    {
+      "id": "modern_translation",
+      "label": "현대 번역본",
+      "description": "Modern English/Korean/French/German translation of a primary text.",
+      "priority": 3
+    },
+    {
+      "id": "commentary_or_traditional_interpretation",
+      "label": "주석·전통 해석",
+      "description": "Commentary, scholia, gloss, scholastic interpretation, or classical exegetical tradition.",
+      "priority": 4
+    },
+    {
+      "id": "later_scholar_interpretation",
+      "label": "후대 학자 해석",
+      "description": "Later scholar's paraphrase, reception, citation, or conceptual explanation.",
+      "priority": 5
+    },
+    {
+      "id": "modern_secondary_explanation",
+      "label": "현대 해설·2차 문헌",
+      "description": "Textbook, lecture note, blog, encyclopedia, article, or course summary.",
+      "priority": 6
+    },
+    {
+      "id": "discovery_only",
+      "label": "단서 자료",
+      "description": "Useful clue source that should not be treated as final citation evidence.",
+      "priority": 7
+    },
+    {
+      "id": "unknown",
+      "label": "층위 불명",
+      "description": "Insufficient evidence to classify the document layer.",
+      "priority": 99
+    }
+  ],
+  "language_layer_hints": {
+    "grc": "original_language_primary",
+    "la": "original_language_primary",
+    "fr": "original_language_primary",
+    "de": "original_language_primary",
+    "en_old": "original_language_primary",
+    "en_translation": "early_or_classic_translation",
+    "ko_translation": "modern_translation"
+  },
+  "keyword_hints": {
+    "commentary_or_traditional_interpretation": ["commentary", "notes", "scholia", "gloss", "annotation", "주석", "해석"],
+    "modern_secondary_explanation": ["lecture", "course", "textbook", "summary", "blog", "encyclopedia", "해설", "강의", "교과서", "요약"],
+    "early_or_classic_translation": ["translated by", "translation", "traduction", "ubersetzung", "übersetzung"]
+  }
+}
+

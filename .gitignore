@@ -1,0 +1,31 @@
+# Python runtime artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments and secrets
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Generated pipeline outputs
+work/*
+!work/.gitkeep
+data/*
+!data/.gitkeep
+results/*
+!results/.gitkeep
+!results/README.md
+
+# Local OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/

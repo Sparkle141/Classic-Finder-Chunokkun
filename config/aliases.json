@@ -1,0 +1,91 @@
+{
+  "section_aliases": {
+    "book i": ["first treatise", "first book", "book 1", "i"],
+    "book ii": ["second treatise", "second book", "book 2", "ii"],
+    "chapter": ["chap.", "ch.", "cap."],
+    "volume": ["vol.", "v."],
+    "part": ["pt."],
+    "fascicle": ["juan", "卷", "권"]
+  },
+  "title_aliases": {
+    "Two Treatises of Government": [
+      "Two Treatises",
+      "Second Treatise of Government",
+      "First Treatise of Government"
+    ],
+    "Leviathan": [
+      "Leviathan, or The Matter, Forme and Power of a Common-Wealth Ecclesiasticall and Civill"
+    ],
+    "Analects": [
+      "Lunyu",
+      "論語",
+      "논어"
+    ],
+    "Mengzi": [
+      "Mencius",
+      "孟子",
+      "맹자"
+    ]
+  },
+  "author_aliases": {
+    "Thomas Hobbes": [
+      "Hobbes",
+      "홉스",
+      "토머스 홉스",
+      "토마스 홉스"
+    ],
+    "Jean-Jacques Rousseau": [
+      "Rousseau",
+      "루소",
+      "장자크 루소",
+      "장 자크 루소"
+    ],
+    "Rene Descartes": [
+      "Descartes",
+      "데카르트",
+      "르네 데카르트"
+    ],
+    "John Locke": [
+      "Locke",
+      "로크",
+      "존 로크"
+    ],
+    "Immanuel Kant": [
+      "Kant",
+      "칸트",
+      "임마누엘 칸트"
+    ]
+  },
+  "author_default_works": {
+    "Thomas Hobbes": [
+      "Leviathan"
+    ],
+    "Jean-Jacques Rousseau": [
+      "Du contrat social",
+      "Social Contract"
+    ],
+    "Rene Descartes": [
+      "Discourse on Method",
+      "Meditations"
+    ],
+    "John Locke": [
+      "Two Treatises of Government",
+      "Second Treatise of Government"
+    ],
+    "Immanuel Kant": [
+      "Critique of Pure Reason",
+      "Groundwork of the Metaphysics of Morals"
+    ]
+  },
+  "hanja_variants": {
+    "国": "國",
+    "学": "學",
+    "经": "經",
+    "汉": "漢",
+    "书": "書",
+    "论": "論",
+    "礼": "禮",
+    "乐": "樂",
+    "众": "衆"
+  }
+}

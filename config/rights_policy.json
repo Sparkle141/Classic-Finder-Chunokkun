@@ -1,0 +1,50 @@
+{
+  "allow_for_translation": [
+    "public_domain",
+    "cc_by",
+    "cc_by_sa",
+    "cc_by_nc_sa",
+    "open_access"
+  ],
+  "warn_before_distribution": [
+    "cc_by_nc_sa",
+    "open_access"
+  ],
+  "block_as_final_source": [
+    "unknown",
+    "search_only",
+    "discovery_only",
+    "restricted",
+    "borrow_only"
+  ],
+  "license_patterns": {
+    "public_domain": [
+      "public domain",
+      "pd",
+      "pdm",
+      "no known copyright"
+    ],
+    "cc_by": [
+      "cc by ",
+      "creativecommons.org/licenses/by/"
+    ],
+    "cc_by_sa": [
+      "cc by-sa",
+      "creativecommons.org/licenses/by-sa/"
+    ],
+    "cc_by_nc_sa": [
+      "cc by-nc-sa",
+      "creativecommons.org/licenses/by-nc-sa/"
+    ],
+    "restricted": [
+      "all rights reserved",
+      "in copyright",
+      "restricted"
+    ],
+    "borrow_only": [
+      "borrow",
+      "controlled digital lending"
+    ]
+  }
+}
+

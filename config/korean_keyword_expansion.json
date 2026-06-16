@@ -1,0 +1,141 @@
+{
+  "description": "Rules for expanding Korean remembered translations into broad search keywords before multilingual tracing.",
+  "meta_stopwords": [
+    "다음",
+    "한국어",
+    "문장",
+    "원전",
+    "출전",
+    "추적",
+    "찾아줘",
+    "찾기",
+    "후보",
+    "추정",
+    "인용",
+    "시험",
+    "선지",
+    "보기",
+    "고전",
+    "문헌"
+  ],
+  "light_suffixes": [
+    "입니다",
+    "이다",
+    "한다",
+    "하였다",
+    "했다",
+    "된다",
+    "되었다",
+    "라는",
+    "이라고",
+    "라고",
+    "으로",
+    "로",
+    "에서",
+    "에게",
+    "에는",
+    "은",
+    "는",
+    "이",
+    "가",
+    "을",
+    "를",
+    "의",
+    "과",
+    "와",
+    "도",
+    "만"
+  ],
+  "korean_synonym_sets": [
+    {
+      "label": "nature_state",
+      "terms": ["자연상태", "자연 상태"],
+      "variants": ["자연 상태", "자연상태", "국가 이전 상태", "정치사회 이전 상태", "전쟁 상태", "전쟁상태", "무정부 상태"]
+    },
+    {
+      "label": "all_against_all",
+      "terms": ["만인에 대한 만인의 투쟁", "만인의 만인에 대한 투쟁", "만인에 대한 만인의 전쟁", "만인의 만인에 대한 전쟁"],
+      "variants": ["만인에 대한 만인의 투쟁", "만인의 만인에 대한 투쟁", "만인에 대한 만인의 전쟁", "만인의 만인에 대한 전쟁", "모든 사람의 모든 사람에 대한 전쟁", "모두가 모두와 싸우는 상태"]
+    },
+    {
+      "label": "conflict_war",
+      "terms": ["투쟁", "전쟁", "싸움", "분쟁"],
+      "variants": ["투쟁", "전쟁", "싸움", "분쟁", "적대 상태", "전쟁 상태"]
+    },
+    {
+      "label": "commonwealth_state",
+      "terms": ["국가", "공화국", "코먼웰스", "공동체"],
+      "variants": ["국가", "공화국", "정치 공동체", "코먼웰스", "commonwealth", "state"]
+    },
+    {
+      "label": "covenant_contract",
+      "terms": ["계약", "언약", "사회계약", "합의"],
+      "variants": ["계약", "언약", "합의", "사회계약", "covenant", "contract"]
+    },
+    {
+      "label": "sword_force",
+      "terms": ["검", "칼", "무력", "강제력", "권력"],
+      "variants": ["검", "칼", "무력", "강제력", "공권력", "sword", "force", "power"]
+    },
+    {
+      "label": "life_short",
+      "terms": ["고독", "가난", "추악", "야만", "짧다", "비참", "잔인"],
+      "variants": ["고독하고 가난하고 추악하고 야만적이고 짧다", "고독한", "가난한", "추악한", "야만적인", "짧은", "비참한", "solitary poor nasty brutish short"]
+    },
+    {
+      "label": "reason",
+      "terms": ["이성", "오성", "지성", "합리성"],
+      "variants": ["이성", "오성", "지성", "reason", "understanding", "ratio", "Vernunft", "Verstand"]
+    },
+    {
+      "label": "freedom_chains",
+      "terms": ["자유", "사슬", "속박", "구속"],
+      "variants": ["자유", "사슬", "속박", "구속", "liberty", "freedom", "chains", "fers"]
+    }
+  ],
+  "bridge_recipes": [
+    {
+      "label": "hobbes_all_against_all",
+      "requires_any": ["자연상태", "자연 상태", "만인", "투쟁", "전쟁상태", "전쟁 상태"],
+      "context_any": ["홉스", "Hobbes", "Leviathan", "리바이어던"],
+      "queries": [
+        "Hobbes Leviathan Chapter 13 state of nature",
+        "Hobbes Leviathan Chapter 13 war of every man against every man",
+        "warre of every man against every man Leviathan Chapter 13",
+        "war of all against all Hobbes Leviathan",
+        "bellum omnium contra omnes Hobbes"
+      ]
+    },
+    {
+      "label": "hobbes_sword_covenant",
+      "requires_any": ["계약", "언약", "검", "칼", "강제력", "말뿐", "말에 불과"],
+      "context_any": ["홉스", "Hobbes", "Leviathan", "리바이어던"],
+      "queries": [
+        "Hobbes Leviathan Chapter 17 covenants without the sword are but words",
+        "covenants without the sword are but words Hobbes",
+        "Leviathan Chapter 17 covenants without the sword"
+      ]
+    },
+    {
+      "label": "rousseau_born_free",
+      "requires_any": ["자유", "사슬", "속박"],
+      "context_any": ["루소", "Rousseau", "사회계약론", "Social Contract"],
+      "queries": [
+        "Rousseau Social Contract Man is born free and everywhere he is in chains",
+        "L'homme est ne libre et partout il est dans les fers",
+        "Du contrat social livre I chapitre I l'homme est ne libre"
+      ]
+    },
+    {
+      "label": "descartes_cogito",
+      "requires_any": ["생각한다", "존재한다", "고로"],
+      "context_any": ["데카르트", "Descartes", "방법서설"],
+      "queries": [
+        "Descartes I think therefore I am",
+        "je pense donc je suis Descartes",
+        "cogito ergo sum Descartes"
+      ]
+    }
+  ]
+}
+
