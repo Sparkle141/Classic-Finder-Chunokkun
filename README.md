@@ -1,5 +1,7 @@
 # Classic Finder Agent Kit
 
+Break ambiguous Korean phrases into eligible searching batches, and fetch available quote candidates.
+
 공개 고전 원전과 공개 학술문헌을 여러 자료원에서 교차 검색하고, 권리 상태를 확인한 뒤, 서지 인용과 한국어 번역 작업지까지 만드는 자족형 작업 디렉토리입니다.
 
 이 키트는 Codex, Claude Code, Claude Cowork, Antigravity, Gemini 계열 에이전트처럼 "프로젝트 폴더의 지침 파일을 읽고 스크립트를 실행하는" 환경에서 쓰기 좋게 구성했습니다.
