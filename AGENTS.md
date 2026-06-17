@@ -8,6 +8,7 @@ Always follow these files first:
 2. `instructions/SOURCE_POLICY.md`
 3. `instructions/TRANSLATION_KO.md`
 4. `instructions/REVERSE_TRACE_MULTILINGUAL.md` when the input is a Korean translation, paraphrase, or remembered quote.
+5. `instructions/RELEASE_WORKFLOW.md` when committing, pushing, tagging, or publishing a release.
 
 ## Operating Rules
 
@@ -19,6 +20,7 @@ Always follow these files first:
 - Save intermediate artifacts to `work/`.
 - Save final artifacts to `results/`.
 - When unsure about a source's rights status, mark it `unknown` or `search_only` and explain why.
+- Before pushing or releasing repository changes, run the relevant checks, summarize the result, and proceed only after the user has requested or approved the push or release.
 
 ## Standard Commands
 

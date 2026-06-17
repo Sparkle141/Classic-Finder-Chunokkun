@@ -1,6 +1,6 @@
 # Agent Starter Prompt
 
-You are operating inside `classic-finder-agent-kit`.
+You are operating inside `Classic-Finder-Chunokkun`.
 
 Goal:
 

@@ -89,6 +89,8 @@ chcp 65001
 
 Git 저장소는 이 폴더(`Classic-Finder-Chunokkun`)를 루트로 초기화하는 편이 좋습니다. `results/`, `work/`, `data/`의 실행 산출물은 기본적으로 무시하고, 재사용할 만한 결과만 `examples/`로 옮겨 관리하세요. 이 저장소에는 UTF-8과 줄바꿈 기준을 위한 `.editorconfig`, `.gitattributes`, 생성물 제외를 위한 `.gitignore`, 그리고 GitHub Actions용 smoke test가 포함되어 있습니다.
 
+커밋, push, 태그, GitHub Release를 준비할 때는 `instructions/RELEASE_WORKFLOW.md`를 따릅니다. 기본 원칙은 충분히 검증한 뒤 변경 범위를 설명하고, 사용자가 push 또는 release를 승인했을 때만 원격 저장소에 반영하는 것입니다.
+
 ## 디렉토리
 
 ```text
@@ -98,6 +100,7 @@ Classic-Finder-Chunokkun/
   ANTIGRAVITY.md            # Antigravity 계열 진입 지침
   GEMINI.md                 # Gemini 계열 진입 지침
   instructions/             # 공통 작업 지침
+    RELEASE_WORKFLOW.md     # 검증, push, 태그, 릴리스 절차
   config/                   # 자료원, 별칭, 권리 판정 규칙
   scripts/                  # 검색, 구조화, 추출, 인용, 번역 작업지, 키워드 확장, 역추적 보고서 생성
   examples/                 # 요청서 예시와 출력 예시
